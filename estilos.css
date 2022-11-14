@@ -1,0 +1,321 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #FCF5E6;
+    margin: 0;
+}
+
+nav{
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Baloo Da 2', sans-serif;
+    font-size: 27px;
+    padding: 0 50px 0 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+ul li:hover{
+    transform: scale(1.05);
+}
+
+.link_logo{
+    height: 67px;
+}
+
+nav img{
+    width: 251px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+ul li{
+    padding-left: 67px;
+    transition: 0.25s all;
+}
+
+header{
+    height: 740px;
+    background-image: url(img/comunidad_patines.jpg);
+    background-size: 100% 740px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contenedor_nosotros{
+    color: white;
+    text-align: center;
+    font-family: 'Lato',sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#seccion_formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 25px;
+    height: 750px;
+}
+
+#seccion_formulario img{
+    width: 100%;
+}
+
+.contenedor_imagen_formulario{
+    width: 50%;
+    font-family: 'Baloo Da 2', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+
+.contenedor_formulario{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items:flex-end;
+    font-family: 'Lato',sans-serif;
+}
+
+.formulario{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    background-color: white;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.formulario h3{
+    font-size: 30px;
+}
+
+.formulario input {
+    width: 60%;
+    padding: 16px;
+}
+
+.formulario button {
+    width: 250px;
+    height: 50px;
+    background-color: #B5D263;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-family: 'Lato',sans-serif;
+    border-radius:5px;
+    transition: 0.25s all;
+    cursor: pointer;
+}
+
+.formulario button:hover{
+    background-color: #8da745;
+    
+}
+
+#beneficios{
+    height: 700px;
+    padding: 0 50px 0 50px;
+    background-image: url(img/background_cityscapes.png);
+    background-size: 100% 500px;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    font-family: 'Baloo Da 2', sans-serif;
+    gap: 50px;
+}
+
+#beneficios h2{
+    font-size: 40px;
+}
+
+.cards_contenedor{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.cards_contenedor div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.material-symbols-outlined{
+    font-size: 150px;
+}
+
+.cards_contenedor h3{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    height: 70%;
+}
+
+#clientes{
+    height: 700px;
+    padding: 100px 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    font-family: 'Baloo Da 2', sans-serif;
+}
+
+#clientes h2{
+    font-size: 40px;
+}
+
+.clientes_contenedor{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.clientes_contenedor > div{
+    border: 1px black solid;
+    height: 280px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.clientes_contenedor img {
+    position: absolute;
+    top: -30%; 
+}
+
+.nombre_cliente{
+    font-family: 'Lato',sans-serif;
+    font-size: 32px;
+    color: #FCF5E6;
+    background-color: #42ACC1;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cliente_descripcion{
+    text-align: center;
+    padding: 0 40px 0 40px;
+    font-family: 'Lato',sans-serif;
+    font-size: 24px;
+}
+
+#paises{
+    height: 900px;
+    padding: 0 50px 230px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Baloo Da 2', sans-serif;
+}
+
+#paises h2{
+    font-size: 40px;
+}
+
+.contenedor_banderas{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 100%;
+
+}
+
+.contenedor_banderas div{
+    width: 90%;
+    display: flex;
+    gap: 180px;
+}
+
+.contenedor_banderas_1{
+    justify-content: left;
+
+}
+
+.contenedor_banderas_2{
+    justify-content: center;
+}
+
+.contenedor_banderas_3{
+    justify-content: right;
+}
+
+
+.ilustracion_2{
+    height: 450px;
+    position: absolute;
+    right: 0%;
+    top: -20%;  
+}
+
+.ilustracion_3{
+    height: 450px;
+    position: absolute;
+    left: 0%;
+    bottom: -50%;
+}
+
+footer{
+    height: 195px;
+    width: 100%;
+    background-color: #42ACC1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img{
+    padding-left: 50px;
+}
+
+footer li{
+    color: #FCF5E6;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+footer ul{
+    padding-right: 50px;
+}
